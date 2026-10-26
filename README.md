@@ -1,14 +1,11 @@
-# claudetest
+# Personal site
 
-Originally a scratch repository; it now carries two things.
+A static personal site — plain HTML and CSS, no build step. Lives in
+[`site/`](site/) and is served by GitHub Pages.
 
-- **`site/`** — a static personal site, plain HTML and CSS, served by GitHub Pages.
-- **`monitor/`** — the **Monitor de Crédito LatAm**: a self-updating monthly
-  monitor of the Latin American credit cycle, built from central bank data.
-  See [`monitor/README.md`](monitor/README.md) for how it runs and what it needs.
+Editing instructions are in [`site/README.md`](site/README.md). Everything that
+needs replacing is marked with `<!-- EDIT -->`.
 
-Quick start for the monitor:
-
-    python3 monitor/fetch.py && python3 monitor/build.py
-
-Standard library only — no install step.
+The credit monitor that briefly lived here now has its own repository:
+[eduvera8/latam-credit-monitor](https://github.com/eduvera8/latam-credit-monitor).
+The "Credit monitor" item in the site nav links to it.
